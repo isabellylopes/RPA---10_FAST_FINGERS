@@ -75,7 +75,6 @@ namespace RPA___10_FAST_FINGERS.Uteis
 
             string return_ = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath(element))).Text;
 
-            Console.WriteLine(return_);
 
             return return_;
         }
